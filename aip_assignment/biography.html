@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Biography</title>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1>Allan Canon</h1>
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="awards.html">Awards</a>
+                <a href="contributions.html">Contributions</a>
+            </nav>
+        </header>
+        <section>
+            <h2>Education</h2>
+            <p>Education details...</p>
+            <h2>Employment History</h2>
+            <p>Employment details...</p>
+            <form id="informationForm">
+                <label for="additionalInfo">Additional Information:</label>
+                <textarea id="additionalInfo" name="additionalInfo" rows="4" cols="50"></textarea>
+                <button type="button" onclick="renderInformation()">Render Information</button>
+            </form>
+        </section>
+        <footer>&copy; 2023 Allan Canon</footer>
+        <script src="script.js"></script>
+    </div>
+</body>
+
+</html>
